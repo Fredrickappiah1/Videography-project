@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <title>Sunrise Videography</title>
+  <title>Sunrise Videography — Landing</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
@@ -132,7 +132,7 @@
 
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
 
-      <div class="relative group rounded-lg overflow-hidden cursor-pointer">
+      <div class="relative group rounded-lg overflow-hidden cursor-pointer **aspect-square**">
         <img src="thumbnail1.png" class="w-full h-full object-cover" alt="Video thumbnail for Graduation Highlight" />
 
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-transparent"></div>
@@ -153,7 +153,7 @@
         ></video>
       </div>
 
-      <div class="relative group rounded-lg overflow-hidden cursor-pointer">
+      <div class="relative group rounded-lg overflow-hidden cursor-pointer **aspect-square**">
         <img src="thumbnail2.png" class="w-full h-full object-cover" alt="Video thumbnail for Wedding Shoot" />
 
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-transparent"></div>
@@ -174,7 +174,7 @@
         ></video>
       </div>
 
-      <div class="relative group rounded-lg overflow-hidden cursor-pointer">
+      <div class="relative group rounded-lg overflow-hidden cursor-pointer **aspect-square**">
         <img src="thumbnail3.png" class="w-full h-full object-cover" alt="Video thumbnail for Memorial Service" />
 
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-transparent"></div>
@@ -195,7 +195,7 @@
         ></video>
       </div>
 
-      <div class="relative group rounded-lg overflow-hidden cursor-pointer">
+      <div class="relative group rounded-lg overflow-hidden cursor-pointer **aspect-square**">
         <img src="thumbnail4.png" class="w-full h-full object-cover" alt="Video thumbnail for Birthday Event" />
 
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/0 to-transparent"></div>
@@ -284,13 +284,20 @@
             </a>
         </div>
       </div>
-      </div>
+    </div>
   </section>
 
   <footer class="bg-black/80 py-6">
     <div class="max-w-6xl mx-auto px-6 text-center">
-      <p class="text-gray-300 text-sm">© <span id="currentYear"></span> AP Technologies. All rights reserved.</p>
+      <p class="text-gray-300 text-sm">© <span id="currentYear"></span> Sunrise Videography. All rights reserved.</p>
 
+      <div class="flex justify-center gap-6 mt-4">
+        <a href="https://instagram.com/yourvideographer" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram text-2xl text-gray-300 hover:text-pink-500 transition"></i></a>
+        <a href="https://snapchat.com/add/yourvideographer" target="_blank" aria-label="Snapchat"><i class="fa-brands fa-snapchat text-2xl text-gray-300 hover:text-yellow-400 transition"></i></a>
+        <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp text-2xl text-gray-300 hover:text-green-500 transition"></i></a>
+        <a href="https://tiktok.com/@yourvideographer" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok text-2xl text-gray-300 hover:text-amber-400 transition"></i></a>
+      </div>
+    </div>
   </footer>
 
   <script>
